@@ -1,15 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
 
-Console.WriteLine("Hello, World!");
+decimal akaraPrice = 50.0m;
+decimal papPrice = 100.0m;
 
-/* 
- conole app for kiosk shop
-* order button
-* oder for both akara and pap
-* limit of order
-* current payment system
- */
+int maxAkara = 5;
+int maxPap = 5;
+Console.WriteLine("welcome to your ak & pa joint");
+Console.WriteLine($"The maximum number of Akara you can order is {maxAkara}.");
+Console.WriteLine($"The maximum number of Pap you can order is {maxPap}.");
+string chooseyourorder;
+int orderAkara = 0;
 
 
 //String order ;
